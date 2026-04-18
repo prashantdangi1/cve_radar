@@ -6,7 +6,7 @@
   const state = {
     items: [],
     generatedAt: null,
-    filters: { window: "today", minCvss: 8, q: "" },
+    filters: { window: "7d", minCvss: 8, q: "" },
   };
 
   const els = {
