@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CVE Radar &middot; Hack_Pulse</title>
+    <meta
+      name="description"
+      content="Real-time radar of high-risk CVEs (CVSS 8+) actively exploited in the wild. Curated daily for the Hack_Pulse community."
+    />
+    <link rel="preconnect" href="https://services.nvd.nist.gov" />
+    <link rel="preconnect" href="https://www.cisa.gov" />
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <div>
+          <h1>CVE Radar</h1>
+          <p class="tagline">Hack_Pulse &middot; high-risk vulnerabilities, exploited in the wild</p>
+        </div>
+      </div>
+      <div class="status">
+        <span class="pulse" aria-hidden="true"></span>
+        <span id="status-text">Booting radar&hellip;</span>
+      </div>
+    </header>
+
+    <section class="filters" aria-label="Filters">
+      <div class="filter-group">
+        <label for="window">Window</label>
+        <select id="window">
+          <option value="today" selected>Today</option>
+          <option value="7d">Last 7 days</option>
+          <option value="30d">Last 30 days</option>
+        </select>
+      </div>
+      <div class="filter-group">
+        <label for="min-cvss">Min CVSS</label>
+        <input id="min-cvss" type="number" min="0" max="10" step="0.1" value="8" />
+      </div>
+      <div class="filter-group search">
+        <label for="q">Search</label>
+        <input id="q" type="search" placeholder="Vendor, product, CVE id&hellip;" />
+      </div>
+      <div class="filter-actions">
+        <button id="refresh" type="button">Refresh</button>
+        <span class="updated">Last updated: <time id="last-updated">&mdash;</time></span>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Summary">
+      <div class="stat">
+        <span class="stat-num" id="stat-today">0</span>
+        <span class="stat-label">Today</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-critical">0</span>
+        <span class="stat-label">CVSS 9.0+</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-kev">0</span>
+        <span class="stat-label">In CISA KEV</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num" id="stat-vendors">0</span>
+        <span class="stat-label">Vendors hit</span>
+      </div>
+    </section>
+
+    <main>
+      <div id="empty" class="empty hidden">
+        <h2>No high-risk, in-the-wild CVEs in this window.</h2>
+        <p>That is a good day. The radar will keep watching.</p>
+      </div>
+      <ul id="cve-list" class="cve-list" aria-live="polite"></ul>
+    </main>
+
+    <footer>
+      <p>
+        Sources:
+        <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">CISA KEV</a>
+        &middot;
+        <a href="https://nvd.nist.gov/" target="_blank" rel="noopener">NVD</a>
+      </p>
+      <p>
+        Built for the
+        <a href="https://whop.com/" target="_blank" rel="noopener">Hack_Pulse Whop community</a>.
+        Open-sourced on
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>.
+      </p>
+    </footer>
+
+    <template id="cve-card-tpl">
+      <li class="cve-card">
+        <header>
+          <a class="cve-id" target="_blank" rel="noopener"></a>
+          <span class="severity"></span>
+        </header>
+        <h3 class="title"></h3>
+        <p class="desc"></p>
+        <ul class="meta">
+          <li class="meta-vendor"></li>
+          <li class="meta-added"></li>
+          <li class="meta-due hidden"></li>
+        </ul>
+        <div class="tags"></div>
+        <footer class="links">
+          <a class="lnk-nvd" target="_blank" rel="noopener">NVD</a>
+          <a class="lnk-kev" target="_blank" rel="noopener">CISA KEV</a>
+        </footer>
+      </li>
+    </template>
+
+    <script src="assets/app.js" defer></script>
+  </body>
+</html>

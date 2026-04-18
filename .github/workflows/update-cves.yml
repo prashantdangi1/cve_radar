@@ -1,0 +1,47 @@
+name: Update CVE data
+
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch_cves.py"
+      - ".github/workflows/update-cves.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cve-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch CVE data
+        env:
+          NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+          MIN_CVSS: "8.0"
+          LOOKBACK_DAYS: "30"
+        run: python scripts/fetch_cves.py
+
+      - name: Commit if changed
+        run: |
+          if [[ -n "$(git status --porcelain data/cves.json)" ]]; then
+            git config user.name "cve-radar-bot"
+            git config user.email "cve-radar-bot@users.noreply.github.com"
+            git add data/cves.json
+            git commit -m "chore(data): refresh CVE feed $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          else
+            echo "No changes."
+          fi

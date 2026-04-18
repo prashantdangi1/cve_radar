@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-04-18T00:00:00+00:00",
+  "source": {
+    "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "nvd": "https://nvd.nist.gov/"
+  },
+  "filters": { "minCvss": 8.0, "lookbackDays": 30 },
+  "count": 0,
+  "items": []
+}
