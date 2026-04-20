@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-19T23:54:48+00:00",
+  "generatedAt": "2026-04-20T03:54:44+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 15,
+  "count": 12,
   "items": [
     {
       "cveID": "CVE-2026-34197",
@@ -164,45 +164,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 9.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2025-32432",
-      "vendor": "Craft CMS",
-      "product": "Craft CMS",
-      "name": "Craft CMS Code Injection Vulnerability",
-      "description": "Craft CMS contains a code injection vulnerability that allows a remote attacker to execute arbitrary code.",
-      "dateAdded": "2026-03-20",
-      "dueDate": "2026-04-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 10.0,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2025-54068",
-      "vendor": "Laravel",
-      "product": "Livewire",
-      "name": "Laravel Livewire Code Injection Vulnerability",
-      "description": "Laravel Livewire contain a code injection vulnerability that could allow unauthenticated attackers to achieve remote command execution in specific scenarios.",
-      "dateAdded": "2026-03-20",
-      "dueDate": "2026-04-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2025-31277",
-      "vendor": "Apple",
-      "product": "Multiple Products",
-      "name": "Apple Multiple Products Buffer Overflow Vulnerability",
-      "description": "Apple Safari, iOS, watchOS, visionOS, iPadOS, macOS, and tvOS contain a buffer overflow vulnerability that could allow the processing of maliciously crafted web content which may lead to memory corruption.",
-      "dateAdded": "2026-03-20",
-      "dueDate": "2026-04-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
       "kev": true
     }
   ]
