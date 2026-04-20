@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-20T06:36:12+00:00",
+  "generatedAt": "2026-04-20T09:22:24+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 14,
+  "count": 12,
   "items": [
     {
       "cveID": "CVE-2026-34197",
@@ -33,7 +33,7 @@
       "dueDate": "2026-04-28",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     },
     {
@@ -76,32 +76,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2012-1854",
-      "vendor": "Microsoft",
-      "product": "Visual Basic for Applications (VBA)",
-      "name": "Microsoft Visual Basic for Applications Insecure Library Loading Vulnerability",
-      "description": "Microsoft Visual Basic for Applications (VBA) contains an insecure library loading vulnerability that could allow for remote code execution.",
-      "dateAdded": "2026-04-13",
-      "dueDate": "2026-04-27",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2025-60710",
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "name": "Microsoft Windows Link Following Vulnerability",
-      "description": "Microsoft Windows contains a link following vulnerability that allows for privilege escalation",
-      "dateAdded": "2026-04-13",
-      "dueDate": "2026-04-27",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2026-1340",
       "vendor": "Ivanti",
       "product": "Endpoint Manager Mobile (EPMM)",
@@ -124,7 +98,7 @@
       "dueDate": "2026-04-09",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
