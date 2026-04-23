@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-23T14:19:16+00:00",
+  "generatedAt": "2026-04-23T19:44:16+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 19,
+  "count": 14,
   "items": [
+    {
+      "cveID": "CVE-2026-39987",
+      "vendor": "Marimo",
+      "product": "Marimo",
+      "name": "Marimo Remote Code Execution Vulnerability",
+      "description": "Marimo contains an pre-authorization remote code execution vulnerability, allowing an unauthenticated attacked to shell access and execute arbitrary system commands.",
+      "dateAdded": "2026-04-23",
+      "dueDate": "2026-05-07",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
+      "kev": true
+    },
     {
       "cveID": "CVE-2025-32975",
       "vendor": "Quest",
@@ -24,45 +37,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2025-2749",
-      "vendor": "Kentico",
-      "product": "Kentico Xperience",
-      "name": "Kentico Xperience Path Traversal Vulnerability",
-      "description": "Kentico Xperience contains a path traversal vulnerability that could allow an authenticated user's Staging Sync Server to upload arbitrary data to path relative locations.",
-      "dateAdded": "2026-04-20",
-      "dueDate": "2026-05-04",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2023-27351",
-      "vendor": "PaperCut",
-      "product": "NG/MF",
-      "name": "PaperCut NG/MF Improper Authentication Vulnerability",
-      "description": "PaperCut NG/MF contains an improper authentication vulnerability that could allow remote attackers to bypass authentication on affected installations via the SecurityRequestFilter class.",
-      "dateAdded": "2026-04-20",
-      "dueDate": "2026-05-04",
-      "ransomware": true,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2025-48700",
-      "vendor": "Synacor",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "name": "Synacor Zimbra Collaboration Suite (ZCS) Cross-site Scripting Vulnerability",
-      "description": "Synacor Zimbra Collaboration Suite (ZCS) contains a cross-site scripting vulnerability that could allow attackers to execute arbitrary JavaScript within the user's session, potentially leading to unauthorized access to sensitive information.",
-      "dateAdded": "2026-04-20",
-      "dueDate": "2026-04-23",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2026-34197",
       "vendor": "Apache",
       "product": "ActiveMQ",
@@ -72,7 +46,7 @@
       "dueDate": "2026-04-30",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     },
     {
@@ -85,59 +59,7 @@
       "dueDate": "2026-04-28",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-32201",
-      "vendor": "Microsoft",
-      "product": "SharePoint Server",
-      "name": "Microsoft SharePoint Server Improper Input Validation Vulnerability",
-      "description": "Microsoft SharePoint Server contains an improper input validation vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-      "dateAdded": "2026-04-14",
-      "dueDate": "2026-04-28",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2023-21529",
-      "vendor": "Microsoft",
-      "product": "Exchange Server",
-      "name": "Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability",
-      "description": "Microsoft Exchange Server contains a deserialization of untrusted data that allows an authenticated attacker to achieve remote code execution.",
-      "dateAdded": "2026-04-13",
-      "dueDate": "2026-04-27",
-      "ransomware": true,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2023-36424",
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "name": "Microsoft Windows Out-of-Bounds Read Vulnerability",
-      "description": "Microsoft Windows Common Log File System Driver contains an out-of-bounds read vulnerability that could allow a threat actor for privileges escalation",
-      "dateAdded": "2026-04-13",
-      "dueDate": "2026-04-27",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2020-9715",
-      "vendor": "Adobe",
-      "product": "Acrobat",
-      "name": "Adobe Acrobat Use-After-Free Vulnerability",
-      "description": "Adobe Acrobat contains a use-after-free vulnerability that allows for code execution",
-      "dateAdded": "2026-04-13",
-      "dueDate": "2026-04-27",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     },
     {
@@ -150,7 +72,20 @@
       "dueDate": "2026-04-16",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2023-21529",
+      "vendor": "Microsoft",
+      "product": "Exchange Server",
+      "name": "Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability",
+      "description": "Microsoft Exchange Server contains a deserialization of untrusted data that allows an authenticated attacker to achieve remote code execution.",
+      "dateAdded": "2026-04-13",
+      "dueDate": "2026-04-27",
+      "ransomware": true,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.8,
       "kev": true
     },
     {
@@ -163,7 +98,7 @@
       "dueDate": "2026-04-27",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.6,
       "kev": true
     },
     {
@@ -176,7 +111,7 @@
       "dueDate": "2026-04-11",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -189,7 +124,7 @@
       "dueDate": "2026-04-09",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -241,7 +176,7 @@
       "dueDate": "2026-04-09",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     },
     {
