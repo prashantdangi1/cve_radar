@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T17:15:59+00:00",
+  "generatedAt": "2026-04-24T18:04:18+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,34 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 14,
+  "count": 16,
   "items": [
+    {
+      "cveID": "CVE-2024-57726",
+      "vendor": "SimpleHelp ",
+      "product": "SimpleHelp",
+      "name": "SimpleHelp Missing Authorization Vulnerability",
+      "description": "SimpleHelp contains a missing authorization vulnerability that could allow low-privileged technicians to create API keys with excessive permissions. These API keys can be used to escalate privileges to the server admin role.",
+      "dateAdded": "2026-04-24",
+      "dueDate": "2026-05-08",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 9.9,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2024-7399",
+      "vendor": "Samsung",
+      "product": "MagicINFO 9 Server",
+      "name": "Samsung MagicINFO 9 Server Path Traversal Vulnerability",
+      "description": "Samsung MagicINFO 9 Server contains a path traversal vulnerability that could allow an attacker to write arbitrary files as system authority.",
+      "dateAdded": "2026-04-24",
+      "dueDate": "2026-05-08",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.8,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-39987",
       "vendor": "Marimo",
