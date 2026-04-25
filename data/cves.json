@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-24T23:57:39+00:00",
+  "generatedAt": "2026-04-25T03:34:16+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 16,
+  "count": 15,
   "items": [
     {
       "cveID": "CVE-2024-57726",
@@ -203,19 +203,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-33017",
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "name": "Langflow Code Injection Vulnerability",
-      "description": "Langflow contains a code injection vulnerability that could allow building public flows without requiring authentication.",
-      "dateAdded": "2026-03-25",
-      "dueDate": "2026-04-08",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
       "kev": true
     }
   ]
