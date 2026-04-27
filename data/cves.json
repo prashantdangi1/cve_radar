@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-26T23:58:13+00:00",
+  "generatedAt": "2026-04-27T04:03:31+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 14,
+  "count": 13,
   "items": [
     {
       "cveID": "CVE-2024-57726",
@@ -174,19 +174,6 @@
       "description": "Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
       "dateAdded": "2026-03-30",
       "dueDate": "2026-04-02",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2025-53521",
-      "vendor": "F5",
-      "product": "BIG-IP",
-      "name": "F5 BIG-IP Stack-Based Buffer Overflow Vulnerability",
-      "description": "F5 BIG-IP APM contains a stack-based buffer overflow vulnerability that could allow a threat actor to achieve remote code execution.",
-      "dateAdded": "2026-03-27",
-      "dueDate": "2026-03-30",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 9.8,
