@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-28T17:03:34+00:00",
+  "generatedAt": "2026-04-28T18:55:13+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 13,
+  "count": 14,
   "items": [
+    {
+      "cveID": "CVE-2024-1708",
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "name": "ConnectWise ScreenConnect Path Traversal Vulnerability",
+      "description": "ConnectWise ScreenConnect contains a path traversal vulnerability which could allow an attacker to execute remote code or directly impact confidential data and critical systems.",
+      "dateAdded": "2026-04-28",
+      "dueDate": "2026-05-12",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.4,
+      "kev": true
+    },
     {
       "cveID": "CVE-2024-57726",
       "vendor": "SimpleHelp ",
