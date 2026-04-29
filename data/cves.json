@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T11:55:44+00:00",
+  "generatedAt": "2026-04-29T14:41:34+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 14,
+  "count": 15,
   "items": [
     {
       "cveID": "CVE-2024-1708",
@@ -20,7 +20,7 @@
       "dueDate": "2026-05-12",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.4,
+      "cvss": null,
       "kev": true
     },
     {
@@ -98,7 +98,20 @@
       "dueDate": "2026-04-28",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-32201",
+      "vendor": "Microsoft",
+      "product": "SharePoint Server",
+      "name": "Microsoft SharePoint Server Improper Input Validation Vulnerability",
+      "description": "Microsoft SharePoint Server contains an improper input validation vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "dateAdded": "2026-04-14",
+      "dueDate": "2026-04-28",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
       "kev": true
     },
     {
