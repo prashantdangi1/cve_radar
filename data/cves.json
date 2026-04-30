@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-29T23:13:50+00:00",
+  "generatedAt": "2026-04-30T00:14:24+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 14,
+  "count": 13,
   "items": [
     {
       "cveID": "CVE-2024-1708",
@@ -177,19 +177,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-3055",
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "name": "Citrix NetScaler Out-of-Bounds Read Vulnerability",
-      "description": "Citrix NetScaler ADC (formerly Citrix ADC), NetScaler Gateway (formerly Citrix Gateway) and NetScaler ADC FIPS and NDcPP contain an out-of-bounds reads vulnerability when configured as a SAML IDP leading to memory overread.",
-      "dateAdded": "2026-03-30",
-      "dueDate": "2026-04-02",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
       "kev": true
     }
   ]
