@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-01T23:10:31+00:00",
+  "generatedAt": "2026-05-02T00:08:41+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 14,
+  "count": 13,
   "items": [
     {
       "cveID": "CVE-2026-41940",
@@ -177,19 +177,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 9.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-5281",
-      "vendor": "Google",
-      "product": "Dawn",
-      "name": "Google Dawn Use-After-Free Vulnerability",
-      "description": "Google Dawn contains an use-after-free vulnerability that could allow a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. This vulnerability could affect multiple Chromium-based products including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
-      "dateAdded": "2026-04-01",
-      "dueDate": "2026-04-15",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
       "kev": true
     }
   ]
