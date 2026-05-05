@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-05T11:41:23+00:00",
+  "generatedAt": "2026-05-05T14:28:02+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -18,7 +18,7 @@
       "description": "WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
       "dateAdded": "2026-04-30",
       "dueDate": "2026-05-03",
-      "ransomware": false,
+      "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 9.8,
       "kev": true
