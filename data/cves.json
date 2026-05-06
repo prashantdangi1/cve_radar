@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T16:56:32+00:00",
+  "generatedAt": "2026-05-06T19:02:43+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 13,
+  "count": 14,
   "items": [
+    {
+      "cveID": "CVE-2026-0300",
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "name": "Palo Alto Networks PAN-OS Out-of-bounds Write Vulnerability",
+      "description": "Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrary code with root privileges on the PA-Series and VM-Series firewalls by sending specially crafted packets.",
+      "dateAdded": "2026-05-06",
+      "dueDate": "2026-05-09",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.    Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required.",
+      "cvss": null,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-41940",
       "vendor": "WebPros",
