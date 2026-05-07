@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T15:39:52+00:00",
+  "generatedAt": "2026-05-07T17:59:48+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -20,7 +20,7 @@
       "dueDate": "2026-05-09",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.    Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
