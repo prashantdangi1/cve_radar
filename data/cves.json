@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T16:46:33+00:00",
+  "generatedAt": "2026-05-08T18:47:14+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 13,
+  "count": 14,
   "items": [
+    {
+      "cveID": "CVE-2026-42208",
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "name": "BerriAI LiteLLM SQL Injection Vulnerability",
+      "description": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorised access to the proxy and the credentials it manages.",
+      "dateAdded": "2026-05-08",
+      "dueDate": "2026-05-11",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-0300",
       "vendor": "Palo Alto Networks",
