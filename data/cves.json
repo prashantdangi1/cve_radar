@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-08T23:15:20+00:00",
+  "generatedAt": "2026-05-09T00:15:33+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 14,
+  "count": 13,
   "items": [
     {
       "cveID": "CVE-2026-42208",
@@ -177,19 +177,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 8.6,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-1340",
-      "vendor": "Ivanti",
-      "product": "Endpoint Manager Mobile (EPMM)",
-      "name": "Ivanti Endpoint Manager Mobile (EPMM) Code Injection Vulnerability",
-      "description": "Ivanti Endpoint Manager Mobile (EPMM) contains a code injection vulnerability that could allow attackers to achieve unauthenticated remote code execution.",
-      "dateAdded": "2026-04-08",
-      "dueDate": "2026-04-11",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
       "kev": true
     }
   ]
