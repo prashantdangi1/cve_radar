@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T16:34:47+00:00",
+  "generatedAt": "2026-05-13T19:11:20+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -15,7 +15,7 @@
       "vendor": "BerriAI",
       "product": "LiteLLM",
       "name": "BerriAI LiteLLM SQL Injection Vulnerability",
-      "description": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorised access to the proxy and the credentials it manages.",
+      "description": "BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the credentials it manages.",
       "dateAdded": "2026-05-08",
       "dueDate": "2026-05-11",
       "ransomware": false,
@@ -32,7 +32,7 @@
       "dateAdded": "2026-05-06",
       "dueDate": "2026-05-09",
       "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.    Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required.",
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable. Until the vendor releases an official fix, the following workaround should be implemented:  - Restrict User-ID Authentication Portal access to only trusted zones.  - Disable User-ID Authentication Portal if not required. 5/13/2026: Palo Alto has released a variety of patches. If these are relevant to your environment, please apply the designated patch.",
       "cvss": 9.8,
       "kev": true
     },
