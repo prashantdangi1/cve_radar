@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T22:40:09+00:00",
+  "generatedAt": "2026-05-14T00:18:04+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 13,
+  "count": 10,
   "items": [
     {
       "cveID": "CVE-2026-42208",
@@ -138,45 +138,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-21643",
-      "vendor": "Fortinet",
-      "product": "FortiClient EMS",
-      "name": "Fortinet FortiClient EMS SQL Injection Vulnerability",
-      "description": "Fortinet FortiClient EMS contains a SQL injection vulnerability that may allow an unauthenticated attacker to execute unauthorized code or commands via specifically crafted HTTP requests.",
-      "dateAdded": "2026-04-13",
-      "dueDate": "2026-04-16",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2023-21529",
-      "vendor": "Microsoft",
-      "product": "Exchange Server",
-      "name": "Microsoft Exchange Server Deserialization of Untrusted Data Vulnerability",
-      "description": "Microsoft Exchange Server contains a deserialization of untrusted data that allows an authenticated attacker to achieve remote code execution.",
-      "dateAdded": "2026-04-13",
-      "dueDate": "2026-04-27",
-      "ransomware": true,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-34621",
-      "vendor": "Adobe",
-      "product": "Acrobat and Reader",
-      "name": "Adobe Acrobat and Reader Prototype Pollution Vulnerability",
-      "description": "Adobe Acrobat and Reader contain a prototype pollution vulnerability that allows for arbitrary code execution.",
-      "dateAdded": "2026-04-13",
-      "dueDate": "2026-04-27",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.6,
       "kev": true
     }
   ]
