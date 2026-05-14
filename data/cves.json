@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T15:36:51+00:00",
+  "generatedAt": "2026-05-14T18:13:49+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 10,
+  "count": 11,
   "items": [
+    {
+      "cveID": "CVE-2026-20182",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN",
+      "name": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+      "description": "Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges on an affected system.",
+      "dateAdded": "2026-05-14",
+      "dueDate": "2026-05-17",
+      "ransomware": false,
+      "requiredAction": "Please adhere to CISA\u2019s guidelines to assess exposure and mitigate risks associated with Cisco SD-WAN devices as outlined in CISA\u2019s Emergency Directive 26-03 (URL listed below in Notes) and CISA\u2019s Hunt & Hardening Guidance for Cisco SD-WAN Devices (URL listed below in Notes). Adhere to the applicable BOD 22-01 guidance for cloud services or discontinue use of the product if mitigations are not available.",
+      "cvss": 10.0,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-42208",
       "vendor": "BerriAI",
@@ -57,7 +70,7 @@
       "description": "ConnectWise ScreenConnect contains a path traversal vulnerability which could allow an attacker to execute remote code or directly impact confidential data and critical systems.",
       "dateAdded": "2026-04-28",
       "dueDate": "2026-05-12",
-      "ransomware": false,
+      "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 8.4,
       "kev": true
@@ -70,7 +83,7 @@
       "description": "SimpleHelp contains a missing authorization vulnerability that could allow low-privileged technicians to create API keys with excessive permissions. These API keys can be used to escalate privileges to the server admin role.",
       "dateAdded": "2026-04-24",
       "dueDate": "2026-05-08",
-      "ransomware": false,
+      "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 9.9,
       "kev": true
