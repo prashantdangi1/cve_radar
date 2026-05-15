@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T17:03:19+00:00",
+  "generatedAt": "2026-05-15T18:58:40+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 10,
+  "count": 11,
   "items": [
+    {
+      "cveID": "CVE-2026-42897",
+      "vendor": "Microsoft",
+      "product": "Microsoft",
+      "name": "Microsoft Exchange Server Cross-Site Scripting Vulnerability",
+      "description": "Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be executed in the browser context.",
+      "dateAdded": "2026-05-15",
+      "dueDate": "2026-05-29",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.1,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-20182",
       "vendor": "Cisco",
