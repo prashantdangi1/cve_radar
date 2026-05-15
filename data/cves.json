@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-14T23:15:14+00:00",
+  "generatedAt": "2026-05-15T00:15:05+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 11,
+  "count": 10,
   "items": [
     {
       "cveID": "CVE-2026-20182",
@@ -135,19 +135,6 @@
       "description": "Apache ActiveMQ contains an improper input validation vulnerability that allows for code injection.",
       "dateAdded": "2026-04-16",
       "dueDate": "2026-04-30",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2009-0238",
-      "vendor": "Microsoft",
-      "product": "Office",
-      "name": "Microsoft Office Remote Code Execution",
-      "description": "Microsoft Office Excel contains a remote code execution vulnerability that could allow an attacker to take complete control of an affected system if a user opens a specially crafted Excel file that includes a malformed object.",
-      "dateAdded": "2026-04-14",
-      "dueDate": "2026-04-28",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 8.8,
