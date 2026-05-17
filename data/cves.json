@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-16T23:11:22+00:00",
+  "generatedAt": "2026-05-17T00:11:23+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 11,
+  "count": 10,
   "items": [
     {
       "cveID": "CVE-2026-42897",
@@ -138,19 +138,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 10.0,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-34197",
-      "vendor": "Apache",
-      "product": "ActiveMQ",
-      "name": "Apache ActiveMQ Improper Input Validation Vulnerability",
-      "description": "Apache ActiveMQ contains an improper input validation vulnerability that allows for code injection.",
-      "dateAdded": "2026-04-16",
-      "dueDate": "2026-04-30",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
       "kev": true
     }
   ]
