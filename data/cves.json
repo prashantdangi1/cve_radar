@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T15:59:23+00:00",
+  "generatedAt": "2026-05-20T18:34:31+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,73 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 10,
+  "count": 15,
   "items": [
+    {
+      "cveID": "CVE-2008-4250",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "name": "Microsoft Windows Buffer Overflow Vulnerability",
+      "description": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
+      "dateAdded": "2026-05-20",
+      "dueDate": "2026-06-03",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 9.8,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2009-1537",
+      "vendor": "Microsoft",
+      "product": "DirectX",
+      "name": "Microsoft DirectX NULL Byte Overwrite Vulnerability",
+      "description": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.",
+      "dateAdded": "2026-05-20",
+      "dueDate": "2026-06-03",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.8,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2009-3459",
+      "vendor": "Adobe",
+      "product": "Acrobat and Reader",
+      "name": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
+      "description": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
+      "dateAdded": "2026-05-20",
+      "dueDate": "2026-06-03",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.8,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2010-0249",
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "dateAdded": "2026-05-20",
+      "dueDate": "2026-06-03",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.8,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2010-0806",
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "dateAdded": "2026-05-20",
+      "dueDate": "2026-06-03",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.8,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-42897",
       "vendor": "Microsoft",
