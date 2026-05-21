@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-21T17:35:22+00:00",
+  "generatedAt": "2026-05-21T20:13:39+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 14,
+  "count": 15,
   "items": [
+    {
+      "cveID": "CVE-2025-34291",
+      "vendor": "Langflow",
+      "product": "Langflow",
+      "name": "Langflow Origin Validation Error Vulnerability",
+      "description": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. This could allow the attacker to execute arbitrary code and achieve full system compromise via obtained tokens that permit access to authenticated endpoints.",
+      "dateAdded": "2026-05-21",
+      "dueDate": "2026-06-04",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.8,
+      "kev": true
+    },
     {
       "cveID": "CVE-2008-4250",
       "vendor": "Microsoft",
