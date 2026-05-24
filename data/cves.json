@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T23:15:17+00:00",
+  "generatedAt": "2026-05-24T00:17:59+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 15,
+  "count": 14,
   "items": [
     {
       "cveID": "CVE-2025-34291",
@@ -190,19 +190,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-39987",
-      "vendor": "Marimo",
-      "product": "Marimo",
-      "name": "Marimo Remote Code Execution Vulnerability",
-      "description": "Marimo contains an pre-authorization remote code execution vulnerability, allowing an unauthenticated attacked to shell access and execute arbitrary system commands.",
-      "dateAdded": "2026-04-23",
-      "dueDate": "2026-05-07",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
       "kev": true
     }
   ]
