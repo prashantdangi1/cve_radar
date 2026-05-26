@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T08:46:40+00:00",
+  "generatedAt": "2026-05-26T16:54:01+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 12,
+  "count": 13,
   "items": [
+    {
+      "cveID": "CVE-2026-9082",
+      "vendor": "Drupal",
+      "product": "Core",
+      "name": "Drupal Core SQL Injection Vulnerability",
+      "description": "Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.",
+      "dateAdded": "2026-05-22",
+      "dueDate": "2026-05-27",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 9.8,
+      "kev": true
+    },
     {
       "cveID": "CVE-2025-34291",
       "vendor": "Langflow",
