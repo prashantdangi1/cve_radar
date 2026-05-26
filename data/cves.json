@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-26T16:54:01+00:00",
+  "generatedAt": "2026-05-26T19:31:56+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 13,
+  "count": 14,
   "items": [
+    {
+      "cveID": "CVE-2026-48172",
+      "vendor": "LiteSpeed",
+      "product": "cPanel Plugin",
+      "name": "LiteSpeed cPanel Plugin Privilege Escalation Vulnerability",
+      "description": "LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with root privileges.",
+      "dateAdded": "2026-05-26",
+      "dueDate": "2026-05-29",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-9082",
       "vendor": "Drupal",
