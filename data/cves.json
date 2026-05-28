@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-28T12:46:51+00:00",
+  "generatedAt": "2026-05-28T17:06:54+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -18,7 +18,7 @@
       "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.",
       "dateAdded": "2026-05-27",
       "dueDate": "2026-06-10",
-      "ransomware": false,
+      "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 9.8,
       "kev": true
@@ -44,7 +44,7 @@
       "description": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
       "dateAdded": "2026-05-27",
       "dueDate": "2026-06-10",
-      "ransomware": false,
+      "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 9.6,
       "kev": true
