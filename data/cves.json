@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T19:36:25+00:00",
+  "generatedAt": "2026-06-08T22:02:23+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 17,
+  "count": 18,
   "items": [
+    {
+      "cveID": "CVE-2026-50751",
+      "vendor": "Check Point",
+      "product": "Security Gateway",
+      "name": "Check Point Security Gateway Improper Authentication Vulnerability",
+      "description": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
+      "dateAdded": "2026-06-08",
+      "dueDate": "2026-06-11",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 9.3,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-42271",
       "vendor": "BerriAI",
