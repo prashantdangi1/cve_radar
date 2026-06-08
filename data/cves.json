@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-08T16:30:17+00:00",
+  "generatedAt": "2026-06-08T19:36:25+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 16,
+  "count": 17,
   "items": [
+    {
+      "cveID": "CVE-2026-42271",
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "name": "BerriAI LiteLLM Command Injection Vulnerability",
+      "description": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
+      "dateAdded": "2026-06-08",
+      "dueDate": "2026-06-22",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.8,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-45247",
       "vendor": "Mirasvit",
