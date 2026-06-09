@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T16:14:08+00:00",
+  "generatedAt": "2026-06-09T18:25:02+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 18,
+  "count": 19,
   "items": [
+    {
+      "cveID": "CVE-2026-11645",
+      "vendor": "Google",
+      "product": "Chromium V8",
+      "name": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
+      "description": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
+      "dateAdded": "2026-06-09",
+      "dueDate": "2026-06-23",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.8,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-50751",
       "vendor": "Check Point",
