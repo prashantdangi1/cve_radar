@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T16:10:47+00:00",
+  "generatedAt": "2026-06-17T18:42:41+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 27,
+  "count": 28,
   "items": [
     {
       "cveID": "CVE-2026-48907",
@@ -33,7 +33,7 @@
       "dueDate": "2026-06-18",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 8.5,
+      "cvss": null,
       "kev": true
     },
     {
@@ -72,7 +72,33 @@
       "dueDate": "2026-06-23",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-7473",
+      "vendor": "Arista",
+      "product": "Extensible Operating System",
+      "name": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
+      "description": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsulation IP.",
+      "dateAdded": "2026-06-09",
+      "dueDate": "2026-06-23",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-20245",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "name": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
+      "description": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system.",
+      "dateAdded": "2026-06-09",
+      "dueDate": "2026-06-23",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
       "kev": true
     },
     {
@@ -228,7 +254,7 @@
       "dueDate": "2026-05-29",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -241,7 +267,7 @@
       "dueDate": "2026-05-27",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -254,20 +280,7 @@
       "dueDate": "2026-06-04",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-34926",
-      "vendor": "Trend Micro",
-      "product": "Apex One",
-      "name": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
-      "description": "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.",
-      "dateAdded": "2026-05-21",
-      "dueDate": "2026-06-04",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     },
     {
@@ -280,7 +293,20 @@
       "dueDate": "2026-06-03",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2010-0249",
+      "vendor": "Microsoft",
+      "product": "Internet Explorer",
+      "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
+      "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
+      "dateAdded": "2026-05-20",
+      "dueDate": "2026-06-03",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.8,
       "kev": true
     },
     {
@@ -302,19 +328,6 @@
       "product": "Acrobat and Reader",
       "name": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
       "description": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2010-0249",
-      "vendor": "Microsoft",
-      "product": "Internet Explorer",
-      "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-      "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
       "dateAdded": "2026-05-20",
       "dueDate": "2026-06-03",
       "ransomware": false,
