@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T09:54:10+00:00",
+  "generatedAt": "2026-06-18T13:50:34+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -33,7 +33,20 @@
       "dueDate": "2026-06-18",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 8.5,
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-20262",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "name": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
+      "description": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
+      "dateAdded": "2026-06-15",
+      "dueDate": "2026-06-29",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": null,
       "kev": true
     },
     {
@@ -76,11 +89,11 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-20245",
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "name": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
-      "description": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system.",
+      "cveID": "CVE-2026-7473",
+      "vendor": "Arista",
+      "product": "Extensible Operating System",
+      "name": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
+      "description": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsulation IP.",
       "dateAdded": "2026-06-09",
       "dueDate": "2026-06-23",
       "ransomware": false,
@@ -98,7 +111,7 @@
       "dueDate": "2026-06-22",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     },
     {
@@ -189,18 +202,18 @@
       "dueDate": "2026-06-01",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.1,
       "kev": true
     },
     {
-      "cveID": "CVE-2026-8398",
-      "vendor": "Daemon",
-      "product": "Daemon Tools Lite",
-      "name": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
-      "description": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
+      "cveID": "CVE-2026-48027",
+      "vendor": "Nx",
+      "product": "Nx Console",
+      "name": "Nx Console Embedded Malicious Code Vulnerability",
+      "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.",
       "dateAdded": "2026-05-27",
-      "dueDate": "2026-05-30",
-      "ransomware": false,
+      "dueDate": "2026-06-10",
+      "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 9.8,
       "kev": true
@@ -215,18 +228,18 @@
       "dueDate": "2026-06-10",
       "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.6,
+      "cvss": null,
       "kev": true
     },
     {
-      "cveID": "CVE-2026-48027",
-      "vendor": "Nx",
-      "product": "Nx Console",
-      "name": "Nx Console Embedded Malicious Code Vulnerability",
-      "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.",
+      "cveID": "CVE-2026-8398",
+      "vendor": "Daemon",
+      "product": "Daemon Tools Lite",
+      "name": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
+      "description": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
       "dateAdded": "2026-05-27",
-      "dueDate": "2026-06-10",
-      "ransomware": true,
+      "dueDate": "2026-05-30",
+      "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": null,
       "kev": true
@@ -241,7 +254,7 @@
       "dueDate": "2026-05-29",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -284,19 +297,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2008-4250",
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "name": "Microsoft Windows Buffer Overflow Vulnerability",
-      "description": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2009-1537",
       "vendor": "Microsoft",
       "product": "DirectX",
@@ -307,6 +307,19 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 8.8,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2008-4250",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "name": "Microsoft Windows Buffer Overflow Vulnerability",
+      "description": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
+      "dateAdded": "2026-05-20",
+      "dueDate": "2026-06-03",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
       "kev": true
     },
     {
@@ -341,19 +354,6 @@
       "product": "Internet Explorer",
       "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
       "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-41091",
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "name": "Microsoft Defender Link Following Vulnerability",
-      "description": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
       "dateAdded": "2026-05-20",
       "dueDate": "2026-06-03",
       "ransomware": false,
