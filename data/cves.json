@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T13:50:34+00:00",
+  "generatedAt": "2026-06-18T17:40:03+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 28,
+  "count": 26,
   "items": [
+    {
+      "cveID": "CVE-2026-20253",
+      "vendor": "Splunk",
+      "product": "Enterprise",
+      "name": "Splunk Enterprise Missing Authentication for Critical Function Vulnerability",
+      "description": "Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar service endpoint.",
+      "dateAdded": "2026-06-18",
+      "dueDate": "2026-06-21",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 9.8,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-48907",
       "vendor": "Widget Factory",
@@ -20,7 +33,7 @@
       "dueDate": "2026-06-19",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -85,15 +98,15 @@
       "dueDate": "2026-06-23",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     },
     {
-      "cveID": "CVE-2026-7473",
-      "vendor": "Arista",
-      "product": "Extensible Operating System",
-      "name": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
-      "description": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsulation IP.",
+      "cveID": "CVE-2026-20245",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "name": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
+      "description": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system.",
       "dateAdded": "2026-06-09",
       "dueDate": "2026-06-23",
       "ransomware": false,
@@ -154,19 +167,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2022-0492",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "name": "Linux Kernel Improper Authentication Vulnerability",
-      "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
-      "dateAdded": "2026-06-02",
-      "dueDate": "2026-06-05",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2025-48595",
       "vendor": "Android",
       "product": "Framework",
@@ -176,7 +176,7 @@
       "dueDate": "2026-06-05",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.4,
       "kev": true
     },
     {
@@ -202,7 +202,7 @@
       "dueDate": "2026-06-01",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.1,
+      "cvss": null,
       "kev": true
     },
     {
@@ -215,7 +215,7 @@
       "dueDate": "2026-06-10",
       "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -284,16 +284,16 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-34926",
-      "vendor": "Trend Micro",
-      "product": "Apex One",
-      "name": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
-      "description": "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.",
-      "dateAdded": "2026-05-21",
-      "dueDate": "2026-06-04",
+      "cveID": "CVE-2008-4250",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "name": "Microsoft Windows Buffer Overflow Vulnerability",
+      "description": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
+      "dateAdded": "2026-05-20",
+      "dueDate": "2026-06-03",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -310,32 +310,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2008-4250",
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "name": "Microsoft Windows Buffer Overflow Vulnerability",
-      "description": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2009-3459",
-      "vendor": "Adobe",
-      "product": "Acrobat and Reader",
-      "name": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
-      "description": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2010-0249",
       "vendor": "Microsoft",
       "product": "Internet Explorer",
@@ -345,7 +319,7 @@
       "dueDate": "2026-06-03",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     },
     {
@@ -358,15 +332,15 @@
       "dueDate": "2026-06-03",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     },
     {
-      "cveID": "CVE-2026-45498",
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "name": "Microsoft Defender Denial of Service Vulnerability",
-      "description": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
+      "cveID": "CVE-2009-3459",
+      "vendor": "Adobe",
+      "product": "Acrobat and Reader",
+      "name": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
+      "description": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
       "dateAdded": "2026-05-20",
       "dueDate": "2026-06-03",
       "ransomware": false,
