@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T02:14:49+00:00",
+  "generatedAt": "2026-06-19T07:36:46+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 29,
+  "count": 28,
   "items": [
     {
       "cveID": "CVE-2026-20253",
@@ -20,7 +20,7 @@
       "dueDate": "2026-06-21",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -33,7 +33,7 @@
       "dueDate": "2026-06-19",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -46,20 +46,7 @@
       "dueDate": "2026-06-18",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-20262",
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "name": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
-      "description": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
-      "dateAdded": "2026-06-15",
-      "dueDate": "2026-06-29",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 8.5,
       "kev": true
     },
     {
@@ -128,19 +115,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-42271",
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
-      "name": "BerriAI LiteLLM Command Injection Vulnerability",
-      "description": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
-      "dateAdded": "2026-06-08",
-      "dueDate": "2026-06-22",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2026-50751",
       "vendor": "Check Point",
       "product": "Security Gateway",
@@ -150,17 +124,17 @@
       "dueDate": "2026-06-11",
       "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.3,
       "kev": true
     },
     {
-      "cveID": "CVE-2026-28318",
-      "vendor": "SolarWinds",
-      "product": "Serv-U",
-      "name": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
-      "description": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
-      "dateAdded": "2026-06-05",
-      "dueDate": "2026-06-19",
+      "cveID": "CVE-2026-42271",
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "name": "BerriAI LiteLLM Command Injection Vulnerability",
+      "description": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
+      "dateAdded": "2026-06-08",
+      "dueDate": "2026-06-22",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": null,
@@ -180,6 +154,19 @@
       "kev": true
     },
     {
+      "cveID": "CVE-2022-0492",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "name": "Linux Kernel Improper Authentication Vulnerability",
+      "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
+      "dateAdded": "2026-06-02",
+      "dueDate": "2026-06-05",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
+      "kev": true
+    },
+    {
       "cveID": "CVE-2025-48595",
       "vendor": "Android",
       "product": "Framework",
@@ -189,17 +176,17 @@
       "dueDate": "2026-06-05",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.4,
+      "cvss": null,
       "kev": true
     },
     {
-      "cveID": "CVE-2022-0492",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "name": "Linux Kernel Improper Authentication Vulnerability",
-      "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
-      "dateAdded": "2026-06-02",
-      "dueDate": "2026-06-05",
+      "cveID": "CVE-2024-21182",
+      "vendor": "Oracle",
+      "product": "WebLogic Server",
+      "name": "Oracle WebLogic Server Unspecified Vulnerability",
+      "description": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data.",
+      "dateAdded": "2026-06-01",
+      "dueDate": "2026-06-04",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": null,
@@ -215,7 +202,7 @@
       "dueDate": "2026-06-01",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.1,
+      "cvss": null,
       "kev": true
     },
     {
@@ -267,7 +254,7 @@
       "dueDate": "2026-05-29",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
