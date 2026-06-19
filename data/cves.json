@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T16:25:49+00:00",
+  "generatedAt": "2026-06-19T18:17:47+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 27,
+  "count": 26,
   "items": [
     {
       "cveID": "CVE-2026-20253",
@@ -33,7 +33,7 @@
       "dueDate": "2026-06-19",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -102,16 +102,16 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-50751",
-      "vendor": "Check Point",
-      "product": "Security Gateway",
-      "name": "Check Point Security Gateway Improper Authentication Vulnerability",
-      "description": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
-      "dateAdded": "2026-06-08",
-      "dueDate": "2026-06-11",
-      "ransomware": true,
+      "cveID": "CVE-2026-20245",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "name": "Cisco Catalyst SD-WAN Manager Improper Encoding or Escaping of Output Vulnerability",
+      "description": "Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbitrary commands as root by supplying a crafted file to the affected system.",
+      "dateAdded": "2026-06-09",
+      "dueDate": "2026-06-23",
+      "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.3,
+      "cvss": null,
       "kev": true
     },
     {
@@ -124,7 +124,20 @@
       "dueDate": "2026-06-22",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-50751",
+      "vendor": "Check Point",
+      "product": "Security Gateway",
+      "name": "Check Point Security Gateway Improper Authentication Vulnerability",
+      "description": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
+      "dateAdded": "2026-06-08",
+      "dueDate": "2026-06-11",
+      "ransomware": true,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
       "kev": true
     },
     {
@@ -154,19 +167,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2022-0492",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "name": "Linux Kernel Improper Authentication Vulnerability",
-      "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
-      "dateAdded": "2026-06-02",
-      "dueDate": "2026-06-05",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2025-48595",
       "vendor": "Android",
       "product": "Framework",
@@ -176,7 +176,7 @@
       "dueDate": "2026-06-05",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.4,
       "kev": true
     },
     {
@@ -202,7 +202,7 @@
       "dueDate": "2026-06-10",
       "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -215,7 +215,7 @@
       "dueDate": "2026-06-10",
       "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.6,
+      "cvss": null,
       "kev": true
     },
     {
@@ -267,7 +267,20 @@
       "dueDate": "2026-06-04",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-34926",
+      "vendor": "Trend Micro",
+      "product": "Apex One",
+      "name": "Trend Micro Apex One (On-Premise) Directory Traversal Vulnerability",
+      "description": "Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deploy to agents on affected installations.",
+      "dateAdded": "2026-05-21",
+      "dueDate": "2026-06-04",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
       "kev": true
     },
     {
@@ -319,7 +332,7 @@
       "dueDate": "2026-06-03",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -328,32 +341,6 @@
       "product": "Internet Explorer",
       "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
       "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-41091",
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "name": "Microsoft Defender Link Following Vulnerability",
-      "description": "Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-45498",
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "name": "Microsoft Defender Denial of Service Vulnerability",
-      "description": "Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
       "dateAdded": "2026-05-20",
       "dueDate": "2026-06-03",
       "ransomware": false,
