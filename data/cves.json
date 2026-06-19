@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T18:17:47+00:00",
+  "generatedAt": "2026-06-19T20:14:01+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -33,7 +33,7 @@
       "dueDate": "2026-06-19",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -102,6 +102,19 @@
       "kev": true
     },
     {
+      "cveID": "CVE-2026-7473",
+      "vendor": "Arista",
+      "product": "Extensible Operating System",
+      "name": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
+      "description": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsulation IP.",
+      "dateAdded": "2026-06-09",
+      "dueDate": "2026-06-23",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
+      "kev": true
+    },
+    {
       "cveID": "CVE-2026-20245",
       "vendor": "Cisco",
       "product": "Catalyst SD-WAN Manager",
@@ -141,19 +154,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-28318",
-      "vendor": "SolarWinds",
-      "product": "Serv-U",
-      "name": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
-      "description": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
-      "dateAdded": "2026-06-05",
-      "dueDate": "2026-06-19",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2026-45247",
       "vendor": "Mirasvit",
       "product": "Mirasvit Full Page Cache Warmer",
@@ -163,7 +163,7 @@
       "dueDate": "2026-06-06",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -176,7 +176,7 @@
       "dueDate": "2026-06-05",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.4,
+      "cvss": null,
       "kev": true
     },
     {
@@ -189,7 +189,7 @@
       "dueDate": "2026-06-01",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.1,
       "kev": true
     },
     {
@@ -202,20 +202,7 @@
       "dueDate": "2026-06-10",
       "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-45321",
-      "vendor": "TanStack",
-      "product": "TanStack",
-      "name": "TanStack Unspecified Vulnerability",
-      "description": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
-      "dateAdded": "2026-05-27",
-      "dueDate": "2026-06-10",
-      "ransomware": true,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -228,7 +215,20 @@
       "dueDate": "2026-05-30",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-45321",
+      "vendor": "TanStack",
+      "product": "TanStack",
+      "name": "TanStack Unspecified Vulnerability",
+      "description": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
+      "dateAdded": "2026-05-27",
+      "dueDate": "2026-06-10",
+      "ransomware": true,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 9.6,
       "kev": true
     },
     {
@@ -241,7 +241,7 @@
       "dueDate": "2026-05-29",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -332,7 +332,7 @@
       "dueDate": "2026-06-03",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     },
     {
@@ -345,7 +345,7 @@
       "dueDate": "2026-06-03",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     }
   ]
