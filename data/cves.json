@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T23:25:44+00:00",
+  "generatedAt": "2026-06-20T01:40:21+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 25,
+  "count": 18,
   "items": [
     {
       "cveID": "CVE-2026-20253",
@@ -33,7 +33,7 @@
       "dueDate": "2026-06-19",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -44,19 +44,6 @@
       "description": "LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS.",
       "dateAdded": "2026-06-15",
       "dueDate": "2026-06-18",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 8.5,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-20262",
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "name": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
-      "description": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
-      "dateAdded": "2026-06-15",
-      "dueDate": "2026-06-29",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "cvss": null,
@@ -72,7 +59,7 @@
       "dueDate": "2026-06-15",
       "ransomware": true,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -85,7 +72,7 @@
       "dueDate": "2026-06-14",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 10.0,
       "kev": true
     },
     {
@@ -111,7 +98,7 @@
       "dueDate": "2026-06-22",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -123,6 +110,19 @@
       "dateAdded": "2026-06-08",
       "dueDate": "2026-06-11",
       "ransomware": true,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-28318",
+      "vendor": "SolarWinds",
+      "product": "Serv-U",
+      "name": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
+      "description": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
+      "dateAdded": "2026-06-05",
+      "dueDate": "2026-06-19",
+      "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": null,
       "kev": true
@@ -141,19 +141,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2022-0492",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "name": "Linux Kernel Improper Authentication Vulnerability",
-      "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
-      "dateAdded": "2026-06-02",
-      "dueDate": "2026-06-05",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2025-48595",
       "vendor": "Android",
       "product": "Framework",
@@ -163,20 +150,7 @@
       "dueDate": "2026-06-05",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2024-21182",
-      "vendor": "Oracle",
-      "product": "WebLogic Server",
-      "name": "Oracle WebLogic Server Unspecified Vulnerability",
-      "description": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data.",
-      "dateAdded": "2026-06-01",
-      "dueDate": "2026-06-04",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.4,
       "kev": true
     },
     {
@@ -189,7 +163,7 @@
       "dueDate": "2026-06-01",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.1,
       "kev": true
     },
     {
@@ -241,7 +215,7 @@
       "dueDate": "2026-05-29",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -254,7 +228,7 @@
       "dueDate": "2026-05-27",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -265,71 +239,6 @@
       "description": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. This could allow the attacker to execute arbitrary code and achieve full system compromise via obtained tokens that permit access to authenticated endpoints.",
       "dateAdded": "2026-05-21",
       "dueDate": "2026-06-04",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2008-4250",
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "name": "Microsoft Windows Buffer Overflow Vulnerability",
-      "description": "Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow during path canonicalization.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2009-1537",
-      "vendor": "Microsoft",
-      "product": "DirectX",
-      "name": "Microsoft DirectX NULL Byte Overwrite Vulnerability",
-      "description": "Microsoft DirectX contains a NULL byte overwrite vulnerability in the QuickTime Movie Parser Filter in quartz.dll in DirectShow which could allow remote attackers to execute arbitrary code via a crafted QuickTime media file.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2009-3459",
-      "vendor": "Adobe",
-      "product": "Acrobat and Reader",
-      "name": "Adobe Acrobat and Reader Heap-Based Buffer Overflow Vulnerability",
-      "description": "Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2010-0249",
-      "vendor": "Microsoft",
-      "product": "Internet Explorer",
-      "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-      "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2010-0806",
-      "vendor": "Microsoft",
-      "product": "Internet Explorer",
-      "name": "Microsoft Internet Explorer Use-After-Free Vulnerability",
-      "description": "Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion of an object. The impacted product could be end-of-life (EoL) and/or end-of-service (EoS). Users should discontinue product utilization.",
-      "dateAdded": "2026-05-20",
-      "dueDate": "2026-06-03",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": null,
