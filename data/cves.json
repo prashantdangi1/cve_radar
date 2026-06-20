@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T10:22:46+00:00",
+  "generatedAt": "2026-06-20T12:19:20+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -33,7 +33,7 @@
       "dueDate": "2026-06-19",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -46,7 +46,7 @@
       "dueDate": "2026-06-18",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 8.5,
       "kev": true
     },
     {
@@ -72,7 +72,7 @@
       "dueDate": "2026-06-14",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 10.0,
+      "cvss": null,
       "kev": true
     },
     {
@@ -85,7 +85,20 @@
       "dueDate": "2026-06-23",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-7473",
+      "vendor": "Arista",
+      "product": "Extensible Operating System",
+      "name": "Arista Extensible Operating System Incomplete Comparison with Missing Factors Vulnerability",
+      "description": "Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with a destination IP matching its configured decapsulation IP.",
+      "dateAdded": "2026-06-09",
+      "dueDate": "2026-06-23",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
       "kev": true
     },
     {
@@ -128,19 +141,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-28318",
-      "vendor": "SolarWinds",
-      "product": "Serv-U",
-      "name": "SolarWinds Serv-U Uncontrolled Resource Consumption Vulnerability",
-      "description": "SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without authentication.",
-      "dateAdded": "2026-06-05",
-      "dueDate": "2026-06-19",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2026-45247",
       "vendor": "Mirasvit",
       "product": "Mirasvit Full Page Cache Warmer",
@@ -154,19 +154,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2022-0492",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "name": "Linux Kernel Improper Authentication Vulnerability",
-      "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
-      "dateAdded": "2026-06-02",
-      "dueDate": "2026-06-05",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2025-48595",
       "vendor": "Android",
       "product": "Framework",
@@ -174,6 +161,19 @@
       "description": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
       "dateAdded": "2026-06-02",
       "dueDate": "2026-06-05",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 8.4,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2024-21182",
+      "vendor": "Oracle",
+      "product": "WebLogic Server",
+      "name": "Oracle WebLogic Server Unspecified Vulnerability",
+      "description": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data.",
+      "dateAdded": "2026-06-01",
+      "dueDate": "2026-06-04",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": null,
@@ -193,14 +193,14 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-48027",
-      "vendor": "Nx",
-      "product": "Nx Console",
-      "name": "Nx Console Embedded Malicious Code Vulnerability",
-      "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.",
+      "cveID": "CVE-2026-8398",
+      "vendor": "Daemon",
+      "product": "Daemon Tools Lite",
+      "name": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
+      "description": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
       "dateAdded": "2026-05-27",
-      "dueDate": "2026-06-10",
-      "ransomware": true,
+      "dueDate": "2026-05-30",
+      "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 9.8,
       "kev": true
@@ -215,18 +215,18 @@
       "dueDate": "2026-06-10",
       "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.6,
       "kev": true
     },
     {
-      "cveID": "CVE-2026-8398",
-      "vendor": "Daemon",
-      "product": "Daemon Tools Lite",
-      "name": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
-      "description": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
+      "cveID": "CVE-2026-48027",
+      "vendor": "Nx",
+      "product": "Nx Console",
+      "name": "Nx Console Embedded Malicious Code Vulnerability",
+      "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.",
       "dateAdded": "2026-05-27",
-      "dueDate": "2026-05-30",
-      "ransomware": false,
+      "dueDate": "2026-06-10",
+      "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": null,
       "kev": true
