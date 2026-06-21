@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T22:44:52+00:00",
+  "generatedAt": "2026-06-21T01:48:22+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 19,
+  "count": 18,
   "items": [
     {
       "cveID": "CVE-2026-20253",
@@ -20,7 +20,7 @@
       "dueDate": "2026-06-21",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -33,7 +33,7 @@
       "dueDate": "2026-06-19",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -46,7 +46,7 @@
       "dueDate": "2026-06-18",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 8.5,
       "kev": true
     },
     {
@@ -85,7 +85,7 @@
       "dueDate": "2026-06-14",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 10.0,
+      "cvss": null,
       "kev": true
     },
     {
@@ -98,7 +98,7 @@
       "dueDate": "2026-06-23",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -141,24 +141,24 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2025-48595",
-      "vendor": "Android",
-      "product": "Framework",
-      "name": "Android Framework Integer Overflow Vulnerability",
-      "description": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
-      "dateAdded": "2026-06-02",
-      "dueDate": "2026-06-05",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.4,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2022-0492",
       "vendor": "Linux",
       "product": "Kernel",
       "name": "Linux Kernel Improper Authentication Vulnerability",
       "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
+      "dateAdded": "2026-06-02",
+      "dueDate": "2026-06-05",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2025-48595",
+      "vendor": "Android",
+      "product": "Framework",
+      "name": "Android Framework Integer Overflow Vulnerability",
+      "description": "Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
       "dateAdded": "2026-06-02",
       "dueDate": "2026-06-05",
       "ransomware": false,
@@ -242,19 +242,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 9.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2025-34291",
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "name": "Langflow Origin Validation Error Vulnerability",
-      "description": "Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage to perform cross-origin requests that include credentials and successfully call the refresh endpoint. This could allow the attacker to execute arbitrary code and achieve full system compromise via obtained tokens that permit access to authenticated endpoints.",
-      "dateAdded": "2026-05-21",
-      "dueDate": "2026-06-04",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
       "kev": true
     }
   ]
