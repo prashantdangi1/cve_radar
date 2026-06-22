@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:58:37+00:00",
+  "generatedAt": "2026-06-22T21:23:09+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -167,19 +167,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-8398",
-      "vendor": "Daemon",
-      "product": "Daemon Tools Lite",
-      "name": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
-      "description": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
-      "dateAdded": "2026-05-27",
-      "dueDate": "2026-05-30",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2026-45321",
       "vendor": "TanStack",
       "product": "TanStack",
@@ -193,6 +180,19 @@
       "kev": true
     },
     {
+      "cveID": "CVE-2026-8398",
+      "vendor": "Daemon",
+      "product": "Daemon Tools Lite",
+      "name": "Daemon Tools Lite Embedded Malicious Code Vulnerability",
+      "description": "Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
+      "dateAdded": "2026-05-27",
+      "dueDate": "2026-05-30",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
+      "kev": true
+    },
+    {
       "cveID": "CVE-2026-48172",
       "vendor": "LiteSpeed",
       "product": "cPanel Plugin",
@@ -202,7 +202,7 @@
       "dueDate": "2026-05-29",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     }
   ]
