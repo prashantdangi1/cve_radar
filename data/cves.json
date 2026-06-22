@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:23:09+00:00",
+  "generatedAt": "2026-06-22T23:01:31+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -163,7 +163,7 @@
       "dueDate": "2026-06-10",
       "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -176,7 +176,7 @@
       "dueDate": "2026-06-10",
       "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.6,
+      "cvss": null,
       "kev": true
     },
     {
