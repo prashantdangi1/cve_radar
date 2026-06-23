@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T16:47:23+00:00",
+  "generatedAt": "2026-06-23T19:26:02+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,60 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 18,
+  "count": 19,
   "items": [
+    {
+      "cveID": "CVE-2026-34910",
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "name": "Ubiquiti UniFi OS Improper Input Validation Vulnerability",
+      "description": "Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
+      "dateAdded": "2026-06-23",
+      "dueDate": "2026-06-26",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 10.0,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-34909",
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "name": "Ubiquiti UniFi OS Path Traversal Vulnerability",
+      "description": "Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an underlying account.",
+      "dateAdded": "2026-06-23",
+      "dueDate": "2026-06-26",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 10.0,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-34908",
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "name": "Ubiquiti UniFi OS Improper Access Control Vulnerability",
+      "description": "Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
+      "dateAdded": "2026-06-23",
+      "dueDate": "2026-06-26",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 10.0,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2025-67038",
+      "vendor": "Lantronix",
+      "product": "EDS5000",
+      "name": "Lantronix EDS5000 Code Injection Vulnerability",
+      "description": "Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
+      "dateAdded": "2026-06-23",
+      "dueDate": "2026-06-26",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 9.8,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-20253",
       "vendor": "Splunk",
@@ -50,19 +102,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-20262",
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "name": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
-      "description": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
-      "dateAdded": "2026-06-15",
-      "dueDate": "2026-06-29",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2026-35273",
       "vendor": "Oracle",
       "product": " PeopleSoft Enterprise PeopleTools",
@@ -72,7 +111,7 @@
       "dueDate": "2026-06-15",
       "ransomware": true,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -85,7 +124,7 @@
       "dueDate": "2026-06-14",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 10.0,
       "kev": true
     },
     {
@@ -98,7 +137,7 @@
       "dueDate": "2026-06-23",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.8,
       "kev": true
     },
     {
@@ -137,20 +176,7 @@
       "dueDate": "2026-06-06",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2022-0492",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "name": "Linux Kernel Improper Authentication Vulnerability",
-      "description": "Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
-      "dateAdded": "2026-06-02",
-      "dueDate": "2026-06-05",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -163,20 +189,7 @@
       "dueDate": "2026-06-05",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2024-21182",
-      "vendor": "Oracle",
-      "product": "WebLogic Server",
-      "name": "Oracle WebLogic Server Unspecified Vulnerability",
-      "description": "Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vulnerability can result in unauthorized access to critical data or complete access to all Oracle WebLogic Server accessible data.",
-      "dateAdded": "2026-06-01",
-      "dueDate": "2026-06-04",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 8.4,
       "kev": true
     },
     {
@@ -206,19 +219,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-45321",
-      "vendor": "TanStack",
-      "product": "TanStack",
-      "name": "TanStack Unspecified Vulnerability",
-      "description": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
-      "dateAdded": "2026-05-27",
-      "dueDate": "2026-06-10",
-      "ransomware": true,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2026-8398",
       "vendor": "Daemon",
       "product": "Daemon Tools Lite",
@@ -228,7 +228,20 @@
       "dueDate": "2026-05-30",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-45321",
+      "vendor": "TanStack",
+      "product": "TanStack",
+      "name": "TanStack Unspecified Vulnerability",
+      "description": "TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
+      "dateAdded": "2026-05-27",
+      "dueDate": "2026-06-10",
+      "ransomware": true,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": 9.6,
       "kev": true
     },
     {
@@ -241,7 +254,7 @@
       "dueDate": "2026-05-29",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     }
   ]
