@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T08:35:52+00:00",
+  "generatedAt": "2026-06-25T11:58:48+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 20,
+  "count": 19,
   "items": [
     {
       "cveID": "CVE-2026-34910",
@@ -85,7 +85,7 @@
       "dueDate": "2026-06-19",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 9.8,
       "kev": true
     },
     {
@@ -98,20 +98,7 @@
       "dueDate": "2026-06-18",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-20262",
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "name": "Cisco Catalyst SD-WAN Manager Directory or Path Traversal Vulnerability",
-      "description": "Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an affected system.",
-      "dateAdded": "2026-06-15",
-      "dueDate": "2026-06-29",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
+      "cvss": 8.5,
       "kev": true
     },
     {
