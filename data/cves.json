@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:36:21+00:00",
+  "generatedAt": "2026-06-25T04:44:04+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -206,19 +206,6 @@
       "kev": true
     },
     {
-      "cveID": "CVE-2026-48027",
-      "vendor": "Nx",
-      "product": "Nx Console",
-      "name": "Nx Console Embedded Malicious Code Vulnerability",
-      "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.",
-      "dateAdded": "2026-05-27",
-      "dueDate": "2026-06-10",
-      "ransomware": true,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.8,
-      "kev": true
-    },
-    {
       "cveID": "CVE-2026-8398",
       "vendor": "Daemon",
       "product": "Daemon Tools Lite",
@@ -242,6 +229,19 @@
       "ransomware": true,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 9.6,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-48027",
+      "vendor": "Nx",
+      "product": "Nx Console",
+      "name": "Nx Console Embedded Malicious Code Vulnerability",
+      "description": "Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harvested credentials from multiple sources on disk and in memory.",
+      "dateAdded": "2026-05-27",
+      "dueDate": "2026-06-10",
+      "ransomware": true,
+      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
+      "cvss": null,
       "kev": true
     },
     {
