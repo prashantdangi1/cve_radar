@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T13:24:16+00:00",
+  "generatedAt": "2026-06-26T16:29:23+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -11,6 +11,19 @@
   "count": 20,
   "items": [
     {
+      "cveID": "CVE-2026-12569",
+      "vendor": "PTC",
+      "product": "Windchill and FlexPLM",
+      "name": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
+      "description": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
+      "dateAdded": "2026-06-25",
+      "dueDate": "2026-06-28",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 9.8,
+      "kev": true
+    },
+    {
       "cveID": "CVE-2026-20230",
       "vendor": "Cisco",
       "product": "Unified Communications Manager",
@@ -21,19 +34,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "cvss": 8.6,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-12569",
-      "vendor": "PTC",
-      "product": "Windchill and FlexPLM",
-      "name": "PTC Windchill and FlexPLM Improper Input Validation Vulnerability",
-      "description": "PTC Windchill and FlexPLM contains an improper input validation vulnerability allowing an unauthenticated, remote attacker to execute arbitrary code by sending a malicious request to the network.",
-      "dateAdded": "2026-06-25",
-      "dueDate": "2026-06-28",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
       "kev": true
     },
     {
