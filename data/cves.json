@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T22:26:38+00:00",
+  "generatedAt": "2026-07-09T01:04:41+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 20,
+  "count": 18,
   "items": [
     {
       "cveID": "CVE-2026-48282",
@@ -239,32 +239,6 @@
       "description": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
       "dateAdded": "2026-06-09",
       "dueDate": "2026-06-23",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-50751",
-      "vendor": "Check Point",
-      "product": "Security Gateway",
-      "name": "Check Point Security Gateway Improper Authentication Vulnerability",
-      "description": "Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a remote access VPN connection without a valid user password.",
-      "dateAdded": "2026-06-08",
-      "dueDate": "2026-06-11",
-      "ransomware": true,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 9.3,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-42271",
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
-      "name": "BerriAI LiteLLM Command Injection Vulnerability",
-      "description": "BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
-      "dateAdded": "2026-06-08",
-      "dueDate": "2026-06-22",
       "ransomware": false,
       "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "cvss": 8.8,
