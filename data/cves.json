@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T23:39:22+00:00",
+  "generatedAt": "2026-07-10T04:26:47+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 18,
+  "count": 17,
   "items": [
     {
       "cveID": "CVE-2026-48282",
@@ -229,19 +229,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "cvss": 10.0,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-11645",
-      "vendor": "Google",
-      "product": "Chromium V8",
-      "name": "Google Chromium V8 Out-of-Bounds Read and Write Vulnerability",
-      "description": "Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google Chrome, Microsoft Edge, and Opera.",
-      "dateAdded": "2026-06-09",
-      "dueDate": "2026-06-23",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "cvss": 8.8,
       "kev": true
     }
   ]
