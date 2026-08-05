@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T12:19:12+00:00",
+  "generatedAt": "2026-08-05T15:30:42+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,8 +8,21 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 19,
+  "count": 20,
   "items": [
+    {
+      "cveID": "CVE-2026-34486",
+      "vendor": "Apache",
+      "product": "Tomcat",
+      "name": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
+      "description": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor.",
+      "dateAdded": "2026-08-04",
+      "dueDate": "2026-08-07",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 9.8,
+      "kev": true
+    },
     {
       "cveID": "CVE-2026-9198",
       "vendor": "IBM",
