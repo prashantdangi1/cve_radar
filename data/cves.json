@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T19:24:28+00:00",
+  "generatedAt": "2026-08-10T21:04:04+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -76,6 +76,19 @@
       "kev": true
     },
     {
+      "cveID": "CVE-2026-16232",
+      "vendor": "Check Point",
+      "product": "SmartConsole",
+      "name": "Check Point SmartConsole Improper Authentication Vulnerability",
+      "description": "Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges.",
+      "dateAdded": "2026-07-22",
+      "dueDate": "2026-07-25",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": 9.8,
+      "kev": true
+    },
+    {
       "cveID": "CVE-2026-50522",
       "vendor": "Microsoft",
       "product": "SharePoint",
@@ -86,19 +99,6 @@
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
       "cvss": 9.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-16232",
-      "vendor": "Check Point",
-      "product": "SmartConsole",
-      "name": "Check Point SmartConsole Improper Authentication Vulnerability",
-      "description": "Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with full administrative privileges.",
-      "dateAdded": "2026-07-22",
-      "dueDate": "2026-07-25",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": null,
       "kev": true
     },
     {
