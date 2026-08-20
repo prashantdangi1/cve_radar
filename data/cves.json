@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T03:12:21+00:00",
+  "generatedAt": "2026-08-20T04:04:19+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,7 +8,7 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 18,
+  "count": 21,
   "items": [
     {
       "cveID": "CVE-2026-64849",
@@ -33,7 +33,7 @@
       "dueDate": "2026-08-21",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -46,20 +46,7 @@
       "dueDate": "2026-08-21",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 9.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-65400",
-      "vendor": "Apple",
-      "product": "macOS",
-      "name": "Apple macOS Improper Authentication Vulnerability",
-      "description": "Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.",
-      "dateAdded": "2026-08-18",
-      "dueDate": "2026-08-21",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
@@ -72,7 +59,20 @@
       "dueDate": "2026-08-21",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 9.1,
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-65400",
+      "vendor": "Apple",
+      "product": "macOS",
+      "name": "Apple macOS Improper Authentication Vulnerability",
+      "description": "Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.",
+      "dateAdded": "2026-08-18",
+      "dueDate": "2026-08-21",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": null,
       "kev": true
     },
     {
@@ -85,20 +85,7 @@
       "dueDate": "2026-08-20",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 8.8,
-      "kev": true
-    },
-    {
-      "cveID": "CVE-2026-72898",
-      "vendor": "Metabase",
-      "product": "Metabase",
-      "name": "Metabase SQL Injection Vulnerability",
-      "description": "Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data.",
-      "dateAdded": "2026-08-11",
-      "dueDate": "2026-08-14",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 10.0,
+      "cvss": null,
       "kev": true
     },
     {
@@ -111,7 +98,33 @@
       "dueDate": "2026-08-14",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 8.6,
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-68820",
+      "vendor": "Microsoft",
+      "product": "Windows Ancillary Function Driver for WinSock ",
+      "name": "Microsoft Windows Ancillary Function Driver for WinSock Use-After-Free Vulnerability",
+      "description": "Microsoft Windows Ancillary Function Driver for WinSock contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "dateAdded": "2026-08-11",
+      "dueDate": "2026-08-25",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-72898",
+      "vendor": "Metabase",
+      "product": "Metabase",
+      "name": "Metabase SQL Injection Vulnerability",
+      "description": "Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access to the instance. From there, the attacker could change the application configuration, steal stored credentials for the connected databases, read any data accessible through those connections, and export data.",
+      "dateAdded": "2026-08-11",
+      "dueDate": "2026-08-14",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": null,
       "kev": true
     },
     {
@@ -124,7 +137,7 @@
       "dueDate": "2026-08-10",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 9.6,
+      "cvss": null,
       "kev": true
     },
     {
@@ -137,7 +150,33 @@
       "dueDate": "2026-08-08",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 9.8,
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-18556",
+      "vendor": "N-able",
+      "product": "N-central",
+      "name": "N-able N-central Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "description": "N-able N-central contains an authentication bypass using an alternate path or channel that allows for authentication bypass.",
+      "dateAdded": "2026-08-04",
+      "dueDate": "2026-08-07",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": null,
+      "kev": true
+    },
+    {
+      "cveID": "CVE-2026-34486",
+      "vendor": "Apache",
+      "product": "Tomcat",
+      "name": "Apache Tomcat Missing Encryption of Sensitive Data Vulnerability",
+      "description": "Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor. This vulnerability can be chained with CVE\u20112025\u201124813.",
+      "dateAdded": "2026-08-04",
+      "dueDate": "2026-08-07",
+      "ransomware": false,
+      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "cvss": null,
       "kev": true
     },
     {
@@ -150,7 +189,7 @@
       "dueDate": "2026-08-07",
       "ransomware": false,
       "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 9.8,
+      "cvss": null,
       "kev": true
     },
     {
