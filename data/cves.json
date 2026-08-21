@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T17:48:41+00:00",
+  "generatedAt": "2026-08-21T19:00:05+00:00",
   "source": {
     "kev": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
     "nvd": "https://nvd.nist.gov/"
@@ -8,21 +8,8 @@
     "minCvss": 8.0,
     "lookbackDays": 30
   },
-  "count": 19,
+  "count": 18,
   "items": [
-    {
-      "cveID": "CVE-2026-69836",
-      "vendor": "Microsoft",
-      "product": "Entra ID ",
-      "name": "Microsoft Entra ID Deserialization of Untrusted Data Vulnerability",
-      "description": "Microsoft Entra ID formerly known as Azure Active Directory contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.",
-      "dateAdded": "2026-08-21",
-      "dueDate": "2026-08-24",
-      "ransomware": false,
-      "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
-      "cvss": 10.0,
-      "kev": true
-    },
     {
       "cveID": "CVE-2026-73570",
       "vendor": "Synacor",
